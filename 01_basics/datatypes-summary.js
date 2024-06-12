@@ -36,3 +36,25 @@ console.log (typeof outsideTemp);
 console.log(typeof myFunction);
 console.log(typeof heros);
 console.log(typeof  id);
+
+ //************* */
+
+ // stack(Primitive...copy) ,heap(Non-Primitive..reference)
+
+ let myGitname ="krishnndu20"
+ let anotherName = myGitname
+anotherName = "20Krishnendu"
+ console.log(anotherName);
+ console.log(myGitname);
+
+ let userOne = {
+    email: "user@googl.com",
+    upi: "user@ybl"
+ }
+
+ let userTwo= userOne
+
+ userTwo.email = "krishnendu.dip.aiub@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
