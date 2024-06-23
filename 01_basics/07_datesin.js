@@ -10,3 +10,12 @@ console.log(typeof myDate);
 
 let myNewdate = new Date("2024-03-22")
 console.log(myNewdate.toLocaleString());
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth()+1);
+console.log(newDate.getDay());
+
+newDate.toLocaleString('default',{
+    weekday: "long"
+})
